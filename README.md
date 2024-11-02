@@ -27,13 +27,6 @@ tmux
 
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
-| OS | PATH |
-| :- | :--- |
-| Linux | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
-| MacOS | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
-| Windows (cmd)| `%userprofile%\AppData\Local\nvim\` |
-| Windows (powershell)| `$env:USERPROFILE\AppData\Local\nvim\` |
-
 ## Oh-My-Zsh
 The plugin management for ZSH
 https://github.com/ohmyzsh/ohmyzsh
