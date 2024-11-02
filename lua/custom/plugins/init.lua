@@ -40,17 +40,4 @@ return {
             vim.keymap.set('n', '<C-n>', ':NvimTreeFindFileToggle<CR>', { desc = 'Toggle File Tree' })
         end
     },
-    {
-      'jim-fx/sudoku.nvim',
-      cmd = "Sudoku",
-      config = function()
-        require("sudoku").setup({
-          -- configuration ...
-        })
-      end
-    },
-    {
-        'alec-gibson/nvim-tetris',
-        cmd = "Tetris",
-    }
 }
