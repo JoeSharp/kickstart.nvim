@@ -668,10 +668,6 @@ vim.wo.relativenumber = true
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 
--- Setup OIL
-require("oil").setup()
-vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
-
 -- Setup treesitter
 require("nvim-treesitter.install").prefer_git = true
 -- Setup Java Debugging
